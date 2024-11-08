@@ -32,7 +32,7 @@ def predict_rating(data):
 
     r2 = r2_score(y_test, predictions)
 
-    return predictions, y_test, r2, mse
+    return predictions, y_test, mse, r2
 
 
 ## Load data from a CSV file
